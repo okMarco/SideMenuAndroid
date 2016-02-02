@@ -1,2 +1,3 @@
 # SideMenuAndroid
-侧滑菜单栏.具体的操作实现见GIF截图.
+侧滑菜单栏.
+![image](https://github.com/HOOOOOO/SideMenuAndroid/blob/master/p1.gif)
