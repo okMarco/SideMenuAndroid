@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout 
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@color/color_titlebar">
+        <ImageButton
+            android:id="@+id/btn_side_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:src="@drawable/btn_side_menu"
+            android:background="@drawable/titlebar_btn_backgruand"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="SideMenuAndroid"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    
+    <com.example.sidemenuandroid.CustomViewPager
+        android:id="@+id/viewpager"
+        android:layout_below="@id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+    
+    <com.example.sidemenuandroid.CustomSideMenu
+        android:id="@+id/side_menu_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00000000"
+        >
+        <RelativeLayout 
+            android:ignoreGravity="@+id/side_menu"
+            android:layout_width="200dip"
+            android:layout_height="fill_parent"
+            android:background="@color/color_titlebar">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side Menu"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"/>
+            
+        </RelativeLayout>
+    </com.example.sidemenuandroid.CustomSideMenu>
+    
+    <View 
+        android:id="@+id/shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_shadow"
+        android:clickable="false"/>
+        
+    
+</RelativeLayout>

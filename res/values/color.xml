@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="color_titlebar">#33465d</color>
+    <color name="color_shadow">#e0000000</color>
+    <color name="color_view_page1">#f2992e</color>
+    <color name="color_view_page2">#4aa8d8</color>
+    <color name="color_view_page3">#56bc8a</color>
+    <color name="titlebar_pressed_color">#192c43</color>
+</resources>
